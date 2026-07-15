@@ -1,0 +1,787 @@
+Content,EventTemplate,Dataset,Category,Inference_time_1,Unseen_LLAMA_FT_Hadoop_1
+Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,1.650473833,Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.329072475,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.289536715,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.429540873,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.027652264,Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.465754032,Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.37866044,Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.422219992,Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+Default file system [hdfs://msra-sa-41:9000],Default file system [hdfs://<*>:<*>],Hadoop,Unseen,0.553293943,Default file system [<*>]
+Default file system [hdfs://msra-sa-41:9000],Default file system [hdfs://<*>:<*>],Hadoop,Unseen,0.553617239,Default file system [<*>]
+Default file system [hdfs://msra-sa-41:9000],Default file system [hdfs://<*>:<*>],Hadoop,Unseen,0.934426069,Default file system [hdfs://<*>:<*>]
+Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,Hadoop,Unseen,2.462843418,Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+Input size for job job_1445144423722_0020 = 1256521728. Number of splits = 10,Input size for job <*> = <*>. Number of splits = <*>,Hadoop,Unseen,1.122426987,Input size for job job_<*> = <*>. Number of splits = <*>
+Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog,Logging to <*>(org.mortbay.log) via <*>,Hadoop,Unseen,2.000614643,Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Http request log for http.requests.mapreduce is not defined,Http request log for http.requests.mapreduce is not defined,Hadoop,Unseen,0.883791924,Http request log for http.requests.mapreduce is not defined
+maxTaskFailuresPerNode is 3,maxTaskFailuresPerNode is <*>,Hadoop,Unseen,0.681579113,maxTaskFailuresPerNode is <*>
+yarn.client.max-cached-nodemanagers-proxies : 0,yarn.client.max-cached-nodemanagers-proxies : <*>,Hadoop,Unseen,1.066599607,yarn.client.max-cached-nodemanagers-proxies : <*>
+Processing the event EventType: JOB_SETUP,Processing the event EventType: JOB_SETUP,Hadoop,Unseen,0.610934019,Processing the event EventType: JOB_SETUP
+job_1445144423722_0020Job Transitioned from SETUP to RUNNING,<*> Transitioned from SETUP to RUNNING,Hadoop,Unseen,0.798598528,job_<*>Job Transitioned from SETUP to RUNNING
+task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.939087629,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000001 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.940743446,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000002 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.932171583,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000003 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.924715757,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000004 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.932648897,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000005 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.929788589,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000006 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.93802762,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000007 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.95334816,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000008 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.937273979,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_m_000009 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.927442789,task_<*> Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_r_000000 Task Transitioned from NEW to SCHEDULED,<*> Task Transitioned from NEW to SCHEDULED,Hadoop,Unseen,0.940754414,task_<*> Task Transitioned from NEW to SCHEDULED
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:10240, vCores:-17> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.883068562,"getResources() for application_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:10240, vCores:-17>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.315806866,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058519363,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:10240, vCores:-17>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307654619,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046438456,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Assigned container container_1445144423722_0020_01_000002 to attempt_1445144423722_0020_m_000000_0,Assigned container <*> to <*>,Hadoop,Unseen,0.931293249,Assigned container <*> to attempt <*>_m_<*>_0
+"Recalculating schedule, headroom=<memory:8192, vCores:-19>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.322122335,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.047421932,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.488293171,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.056500435,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.930952549,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:7168, vCores:-20> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.783990383,getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*> vCores:<*>> knownNMs=<*>
+"Recalculating schedule, headroom=<memory:7168, vCores:-20>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.346738338,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.060376406,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Assigned container container_1445144423722_0020_01_000003 to attempt_1445144423722_0020_m_000001_0,Assigned container <*> to <*>,Hadoop,Unseen,0.985110521,Assigned container container_<*> to attempt_<*>_m_<*>
+"Recalculating schedule, headroom=<memory:5120, vCores:-22>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31144309,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059211731,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:8 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:0 RackLocal:2,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.473327875,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.046938419,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.9273808,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:4096, vCores:-23> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.876190662,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:4096, vCores:-23>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314326525,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063096285,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Assigned container container_1445144423722_0020_01_000004 to attempt_1445144423722_0020_m_000002_0,Assigned container <*> to <*>,Hadoop,Unseen,0.81175518,Assigned container <*> to attempt <*>_m_ <*>
+"Recalculating schedule, headroom=<memory:3072, vCores:-24>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.055929184,"Recalculating schedule, headroom=<memory:<*>,<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.049729586,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:7 ScheduledReds:0 AssignedMaps:3 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:0 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.469614029,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.088654518,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.949197292,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:1024, vCores:-26> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.859355211,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:1024, vCores:-26>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.32531333,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.066491604,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:1024, vCores:-26>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.30741787,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054525852,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.320385933,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.094002008,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.352110147,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057425261,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314261913,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.067488194,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31787324,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.071215391,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317354441,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.065086365,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.320632458,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.092534065,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.309397936,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054927826,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.306607008,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.055301428,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.321907997,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.068007708,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.318846941,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.053766012,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.330305576,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.084114075,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.305546522,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054823399,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.023958297,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.191337585,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307149172,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.049780607,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.306065798,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062357903,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.313191175,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.086115122,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.335454941,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.050814152,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.065791264,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798820972,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.319635153,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063519478,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.05713628,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.058220625,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.322995186,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063910246,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.301570654,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.078954697,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.322244644,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.065894604,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10004553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803714275,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.079464614,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806666613,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.06741504,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80799222,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.30874157,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.052197218,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317458153,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.060790777,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.321378231,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.089873552,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.053330183,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.308102131,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.050592899,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10501281,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807465315,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.103304505,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806499481,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314733505,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.056504011,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311311483,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.04523778,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.826463938,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.32609272,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.0458076,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.810521841,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.187212706,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.315517664,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063835859,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.312839508,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057879448,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.312196255,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.069734097,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799172401,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.1759305,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316950321,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.066398859,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.808620691,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.302776337,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.056234598,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317880392,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058135748,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803424358,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.818238974,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.352684736,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.06078887,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801098108,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.32431078,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.068923712,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.329504013,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.055078506,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.811176538,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.320220709,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063537121,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.814741135,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.815601826,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.325803995,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.055770874,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.32178688,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.061237335,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311833382,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057608604,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805899382,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311187506,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.072647572,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.310002565,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805649519,Progress of TaskAttempt attempt_<*> is : <*>
+Assigned container container_1445144423722_0020_01_000005 to attempt_1445144423722_0020_m_000003_0,Assigned container <*> to <*>,Hadoop,Unseen,1.112819672,Assigned container container_<*> to attempt_<*>_m_<*>_0
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.323335648,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.05943346,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:6 ScheduledReds:0 AssignedMaps:4 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.475849152,After Scheduling: PendingReds: <*> ScheduledMaps: <*> ScheduledReds: <*> AssignedMaps: <*> AssignedReds: <*> CompletedMaps: <*> CompletedReds: <*> ContAlloc: <*> ContRel: <*> HostLocal: <*> RackLocal: <*>
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.044029713,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.940078735,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.767454863,getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*> vCores:<*>> knownNMs=<*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314527035,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059880972,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.062526226,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.319975376,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.05131197,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80680275,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.810794353,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.321438074,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062942743,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.29792881,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058348417,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.301149368,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.06314683,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803968906,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.067477942,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.25496769,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_ is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316641569,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062021494,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.309638262,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062115431,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317958355,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.066994429,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.809835434,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316704273,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059709787,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10875365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.796529055,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79839468,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799919128,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.319717407,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.056640387,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311504602,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054742098,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798051596,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31180954,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.044141054,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.14981231,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794958115,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.13841225,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795848846,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.792512655,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316234827,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.06617403,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.329251766,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.06084919,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.1430594,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.059902191,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307528496,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.043072462,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19084874,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802372217,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.812466383,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.17293417,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.81141901,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.292984486,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046064615,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.323989868,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.049548864,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.310251236,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.044406414,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.1795899,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.796417475,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.17982168,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804602146,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805556536,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801211596,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.304784775,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059765339,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31475997,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.066072941,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.330538511,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.047597647,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.19209063,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798047543,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.304287672,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80375576,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314239979,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.061239481,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805723906,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.298192501,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059876919,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.321341276,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.05803442,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.19209063,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795459509,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.049516201,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.321695805,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.055417776,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799028158,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802799225,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.305044413,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.060194731,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.328391075,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059044838,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.20639901,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.816076756,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317528725,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059215307,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.248074293,Progress of TaskAttempt attempt_<*>_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803686142,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79605341,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.319051027,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.061992645,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.315549612,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*>_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.323466778,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.04733777,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.302899599,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.050726652,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798818827,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.061089039,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.309942961,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046681404,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806865454,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.184228897,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311894417,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.066082239,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.299499273,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.051266909,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.052041769,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.303215742,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.052024126,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801463127,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.27765483,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801552296,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800540924,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314419508,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.076541424,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.324024439,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.051907063,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.056491613,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.304255962,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.30393362,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.052476406,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.358454,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.313527822,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807907343,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317929029,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.068404436,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.328729391,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.06324935,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.36323506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80431509,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.068441153,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.324486971,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063608646,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.180789471,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806842089,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317707062,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.065864086,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.332474947,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058250904,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.36323506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804781914,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80150795,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.308212519,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.064936876,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.20757815,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.055521011,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.19212553,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802374363,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316197395,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062081575,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.315396786,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.051244736,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.36323506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80355382,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19158794,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804200411,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307768106,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046849251,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.24035259,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.303620338,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.22765201,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.29791975,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.309761286,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057534933,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.4486067,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.810585976,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.320110798,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054632425,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31240654,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057692051,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.19716828,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.8072896,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.26542902,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800212622,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.26314905,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.18751049,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.322187901,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.056599617,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.4486067,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.185172081,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.313065767,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063860655,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.292706966,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046814442,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.23859076,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.049236774,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795361519,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311320305,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.047370911,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.189719915,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.4486067,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798150778,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.306438446,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.05410862,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.308962584,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.057439089,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806061745,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.311452866,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058298826,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.2754006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806539059,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807382107,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5091932,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805339336,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.313766718,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.065726519,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.30944109,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.04366374,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.30752492,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.055673361,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804004669,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79032135,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5343203,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.299447536,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.191085577,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316950083,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.069162369,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.3270154,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063468933,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Assigned container container_1445144423722_0020_01_000006 to attempt_1445144423722_0020_m_000004_0,Assigned container <*> to <*>,Hadoop,Unseen,0.549114943,Assigned container <*> to attempt <*>
+Assigned container container_1445144423722_0020_01_000007 to attempt_1445144423722_0020_m_000005_0,Assigned container <*> to <*>,Hadoop,Unseen,1.125845671,Assigned container container_<*> to attempt_<*>_m_<*>_0
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316020966,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054736137,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:4 ScheduledReds:0 AssignedMaps:6 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:6 ContRel:0 HostLocal:3 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.490490198,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.056732893,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.061375618,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.944524288,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5343203,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806687117,Progress of TaskAttempt attempt_<*> is : <*>
+attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.926915407,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.185076475,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.81093812,Progress of TaskAttempt attempt_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=1 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.853069782,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+Assigned container container_1445144423722_0020_01_000008 to attempt_1445144423722_0020_m_000006_0,Assigned container <*> to <*>,Hadoop,Unseen,1.117494106,Assigned container container_<*> to attempt_<*>_m_<*>_0
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314762831,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.071799755,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:3 ScheduledReds:0 AssignedMaps:7 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:7 ContRel:0 HostLocal:4 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.465106726,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.055697203,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.808359385,Progress of TaskAttempt attempt_<*> is : <*>
+attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.925159693,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.851737022,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.316356897,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.082385063,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.333469629,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.059051514,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5343203,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.060674191,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.796823263,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.299206972,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.058051586,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802754641,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805337429,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.314859867,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.051877975,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.326954603,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.063094139,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5806522,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799851656,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.317424536,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.065816879,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.066911936,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.808052301,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803555965,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.31697917,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.060750008,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.31522584,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Assigned container container_1445144423722_0020_01_000009 to attempt_1445144423722_0020_m_000007_0,Assigned container <*> to <*>,Hadoop,Unseen,1.638652325,Assigned container container_<*>_<*>_<*>_<*> to attempt_<*>_<*>_<*>_<*>_<*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.295933247,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.043349981,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:2 ScheduledReds:0 AssignedMaps:8 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:8 ContRel:0 HostLocal:5 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.493048191,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.060889006,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.10680563,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802555799,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80435586,Progress of TaskAttempt attempt_<*> is : <*>
+attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.929628134,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.106964506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.064410448,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.85919261,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.303891897,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.062933683,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802877665,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80428791,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.304512024,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.054493904,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803430319,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.066095114,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Assigned container container_1445144423722_0020_01_000010 to attempt_1445144423722_0020_m_000008_0,Assigned container <*> to <*>,Hadoop,Unseen,0.993395805,Assigned container container_<*> to attempt_<*>_m_<*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307830334,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.046524763,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:9 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:9 ContRel:0 HostLocal:6 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.477060556,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.057978153,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.10680563,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.81086874,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803094149,Progress of TaskAttempt attempt_<*> is : <*>
+attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.933010101,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.106964506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.816106558,Progress of TaskAttempt attempt_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=1 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.833875656,getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*> vCores:<*>> knownNMs=<*>
+Assigned container container_1445144423722_0020_01_000011 to attempt_1445144423722_0020_m_000009_0,Assigned container <*> to <*>,Hadoop,Unseen,0.925528049,Assigned container <*> to attempt <*>_m_<*>_0
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.310030937,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.064575672,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:10 ContRel:0 HostLocal:7 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.486785173,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,Hadoop,Unseen,1.062293291,attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,Hadoop,Unseen,0.943803072,attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.27776006,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.809612989,Progress of TaskAttempt attempt_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=1 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.834606171,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.308808088,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.048061371,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.468908548,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804157019,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.194252253,Progress of TaskAttempt attempt_<*>_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.196933508,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=0 release= 1 newContainers=0 finishedContainers=1 resourcelimit=<memory:1024, vCores:-26> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.840034723,"getResources() for application_<*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+"Recalculating schedule, headroom=<memory:1024, vCores:-26>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.307780027,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.053015947,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.10680563,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804409504,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799008846,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.106964506,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.049375772,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.301161528,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,Hadoop,Unseen,1.061753035,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.29115766,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.797944546,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6199081,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795228958,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.2898827,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801335335,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804092407,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794310808,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.18529637,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.1887393,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.10681946,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804004908,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80510807,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803212881,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.31981927,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805796146,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.32958937,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.057457209,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805480003,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.19242907,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.334913731,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.10681946,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.819350719,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802154541,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.305427551,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802487373,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805663586,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795044184,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.793197393,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.3512319,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.796440125,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.19242907,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795956373,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.10681946,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798006296,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.307039261,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.054807425,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.27696857,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.811660528,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.246760845,Progress of TaskAttempt attempt_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.309412479,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.304233551,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795623302,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.19242907,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807546854,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.1337379,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799164057,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.6854124,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.796591997,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804410458,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805762768,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.29998285,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.059196472,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.809061766,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.809006453,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.056763887,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.27813601,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806545973,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.25258622,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803191662,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.19255035,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801382065,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.7198902,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794462442,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794515371,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79681921,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.27613032,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.790527105,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.33995733,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795823097,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.188332319,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.059949398,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.27813601,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801263094,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.2781602,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79831028,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.19255035,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.061782837,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.7607953,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804388762,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.2783809,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80082798,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802770615,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.19415307,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807283878,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801180124,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.295472,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804743052,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.27813601,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800549984,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.2781602,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.186718464,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.19255035,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.057752848,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.80356,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806369066,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.2783809,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.051518202,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805516005,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.18216328,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806200266,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.183306456,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804615021,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.4956123,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80521059,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.32285523,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800693512,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.25511068,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800254583,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.2781602,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.178294659,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.83331466,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.296699524,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.29597813,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794169188,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.19258286,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.792476892,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.323673248,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.809774637,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.808617115,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.189161301,Progress of TaskAttempt attempt_<*>_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.303222895,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.27825075,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800307512,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806044817,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.87672114,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806830883,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.36404583,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798500538,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.19258286,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795794249,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.18163681,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.06816864,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.815145731,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.818056822,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807175875,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.27825075,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804335833,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9185183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800203085,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.06055522,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.36404583,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.810199499,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.19258286,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802928686,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.79825139,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.055894852,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804790735,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802970171,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.27825075,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800549984,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.36317363,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.322430372,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9543898,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.433955669,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.36404583,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.047590017,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800620794,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.311313152,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.27811313,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.313047647,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794453382,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.43890014,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803616524,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.36388028,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.799904346,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.35880664,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.801981688,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.9854844,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.061041832,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.4156165,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.187516212,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.811748981,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.27811313,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806060314,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 1.0,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.798522949,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.793716431,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.3673702,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.792214632,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.7972579,Progress of TaskAttempt attempt_<*> is : <*>
+"Recalculating schedule, headroom=<memory:0, vCores:-27>","Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",Hadoop,Unseen,1.312708378,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>"
+Reduce slow start threshold reached. Scheduling reduces.,Reduce slow start threshold reached. Scheduling reduces.,Hadoop,Unseen,0.801355124,Reduce slow start threshold reached. Scheduling reduces.
+After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.45871973,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3638923,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80384469,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.44950968,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.813160181,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803969145,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.44980705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794288397,Progress of TaskAttempt attempt_<*> is : <*>
+"getResources() for application_1445144423722_0020: ask=5 release= 0 newContainers=0 finishedContainers=1 resourcelimit=<memory:0, vCores:-27> knownNMs=4","getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",Hadoop,Unseen,2.845418453,"getResources() for application_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>"
+After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,Hadoop,Unseen,3.446350574,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.058276653,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37225527,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.191127777,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.3787692,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806420326,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.667,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.056152582,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.27811313,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.177625895,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3638923,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.053028584,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.44950968,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.797516823,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.7944417,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.44980705,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.051241636,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37322965,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.046371222,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38007197,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795195818,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.3624012,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803947449,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.76133776,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.191502333,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.34610128,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.805906773,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3707891,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806106806,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.050992966,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.806819916,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.184763432,Progress of TaskAttempt attempt_<*>_<*>_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804107428,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549374342,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80449295,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550053835,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550462008,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.807370901,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.795668602,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54659462,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.797617912,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.049360752,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.556759596,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.563878775,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.842953682,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.800944567,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550527334,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.810177803,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.803691149,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549302578,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54800868,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802673817,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.185388088,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.539314032,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.794775248,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.80591917,Progress of TaskAttempt attempt_<*> is : <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543411016,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550107241,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.812236309,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.180782318,Progress of TaskAttempt attempt_<*>_m_<*>_0 is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.804660082,Progress of TaskAttempt attempt_<*> is : <*>
+Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,Hadoop,Unseen,3.41920352,Task: attempt_<*> - exited : java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545688629,ERROR IN CONTACTING RM.
+Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0,Task cleanup failed for attempt <*>,Hadoop,Unseen,1.061333418,Task cleanup failed for attempt attempt_<*>_m_<*>_0
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549919128,ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,0.802444458,Progress of TaskAttempt attempt_<*> is : <*>
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183,Progress of TaskAttempt <*> is : <*>,Hadoop,Unseen,1.050570488,Progress of TaskAttempt attempt_<*>_m_<*> is : <*>
+Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,Hadoop,Unseen,4.119117498,Task: attempt_<*> - exited : java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0,Task cleanup failed for attempt <*>,Hadoop,Unseen,0.929335356,Task cleanup failed for attempt attempt_<*>_m_<*>
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542226076,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549738407,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549978256,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551932573,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552039862,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544495583,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544811964,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546360016,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54816699,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545262575,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547697544,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547596216,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547490835,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548598766,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552357435,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546937227,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545888901,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552645206,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547972441,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546160936,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545256376,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545422077,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548754215,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549016714,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54472065,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543383121,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546571016,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546053648,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549075365,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545338392,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542434216,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545473814,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546661139,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548569202,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549241304,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552549601,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551954746,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.561965942,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552222013,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547488928,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547546625,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54683733,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550155163,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548761845,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542857409,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543061018,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548241377,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548471451,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54320097,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54694128,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543801069,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543758392,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548050642,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545366526,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548316956,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547353745,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552197695,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544991255,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549964428,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548046112,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544594765,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545905113,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546371222,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547231674,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545086622,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.540830135,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543228149,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.541753054,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547590733,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.541783571,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548400879,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547427177,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543878317,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.540049553,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542399406,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545054436,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54618454,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549348831,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.559087753,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.55422616,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.55018878,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548690557,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546402693,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549838066,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548032284,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542208195,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545361996,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545664787,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550179005,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551127195,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.543857813,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544904709,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542064667,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547147036,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544412136,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551109314,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550254822,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549563885,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.561429501,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.563158035,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.559304237,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548172235,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550378799,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546263218,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.54954052,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544543028,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.544435501,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.541085243,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549283504,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.5558002,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551422834,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551334381,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.551563025,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.55072546,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550048351,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.552509546,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549814463,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.545196295,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.542457342,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.563662529,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.564883471,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.561971664,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549082756,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.55453825,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.559479952,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550627947,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.550713062,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.547517776,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548956633,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.549534321,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.548988819,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546376228,ERROR IN CONTACTING RM.
+ERROR IN CONTACTING RM.,ERROR IN CONTACTING RM.,Hadoop,Unseen,0.546951771,ERROR IN CONTACTING RM.
